@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form action="/server">
+     name attribute 
+<!-- eg -->
+          <div>
+    <label for="username">username:</label>
+    <input type="text" placeholder="enter username" id="username" name="name"/>
+    <button>submit</button>
+    </div>
+    <hr>  
+    <!-- practice question-->
+    </form>
+   <form action="https://www.google.com/search?">
+    <input type="text" placeholder="search google"  name="q"/>
+    <button>submit</button>
+   </form>
+   <hr> 
+   <!-- checkbox -->
+    <!-- syntax -->
+   <form action="/server">
+   <input type ="checkbox" id="age" name="age" checked>
+   <label for="age"> I am 18+</label>
+   <button>submit</button>
+<hr>
+<!-- radio button -->
+ <!-- syntax -->
+ <form action="/server">
+   <input type ="radio" id="apple" name="fruit" value="apple" >
+   <label for="apple"> apple</label>
+    <input type ="radio" id="mango" name="fruit" value="mango">
+   <label for="mango">mango</label>
+   <button>submit</button>
+   <hr>
+   <div>
+  <!-- select element - dropdown -->
+   choose profession
+   <select name="profession" id="profession">
+    <option>select your option</option>
+    <option value="student" selected>Student</option>
+    <option value="dev">Developer</option>
+</select>
+  <button>submit</button>
+  
+<div>
+<!-- range -->
+  <label for="volume"> select Volume:</label>
+<input type="range" id="volume" name="vol" min="0" max="100" step="10" value="70"
+/>
+<button>submit</button>
+</div>
+<hr>
+<!-- text area -->
+ <label for="feedback">please feedback</label>
+ <textarea name="feedback" id="feedback" rows="5" cols="10" placeholder=" write your feedback here"></textarea>
+ <button>submit</button>
+
+</body>
+</html>
